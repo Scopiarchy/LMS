@@ -1,10 +1,9 @@
 # AdminHub Dashboard
 
-Welcome to the AdminHub Dashboard repository!
+Welcome to the Southern Province Irrigation Department Library Management System repository!
 
-AdminHub Dashboard is a sleek and modern dashboard design created using HTML, CSS, and JavaScript. This repository contains the source code for the AdminHub Dashboard.
+Library Management System is a sleek and modern dashboard design created using HTML, CSS, and JavaScript. This repository contains the source code for the Library Management System.
 
-Get the v2 here [Adminhub v2](https://github.com/fajarnurwahid/adminhub-v2)
 
 ## Features
 
@@ -15,14 +14,14 @@ Get the v2 here [Adminhub v2](https://github.com/fajarnurwahid/adminhub-v2)
 
 ## Preview
 
-![AdminHub Dashboard Preview](dashboard-preview.png)
+http://127.0.0.1:5500/Homepage/books.html
 
 ## Getting Started
 
 To get started with AdminHub Dashboard, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/fajarnurwahid/adminhub.git`
-2. Open the `index.html` file in your web browser to view the dashboard.
+1. Clone this repository: `git clone https://github.com/SPID-PROJECT-Library-Management-System/Library-Management-System-SPID-.git`
+2. Open the `Homepage/index.html` file in your web browser to view the dashboard.
 
 ## Technologies Used
 
@@ -36,9 +35,6 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Southern Province Irrigation Department.
 
-## Acknowledgements
-
-Special thanks to [Fajarnurwahid](https://github.com/fajarnurwahid) for creating and sharing the AdminHub Dashboard.
 
