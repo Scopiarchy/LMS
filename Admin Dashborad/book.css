@@ -406,7 +406,20 @@ body {
 .btnn:hover{
 	opacity: 0.6;
 }
-
+.btnn-book{
+	height: 36px;
+	padding: 0 16px;
+	background: none;
+	color: var(--blue);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 10px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	font-size: 1.2em;
+}
 
 
 #content main .box-info {
