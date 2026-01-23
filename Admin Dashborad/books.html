@@ -7,7 +7,8 @@
 	<!-- Boxicons -->
 	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 	<!-- My CSS -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="book.css">
+
 
 	<title>Library Management System|Southern Province Irrigation Department</title>
 </head>
@@ -103,97 +104,103 @@
 				</div>
 			</div>
 
-			<ul class="box-info">
-				<li>
-					<i class='bx bxs-user' ></i>
-					<span class="text">
-						<h3>1020</h3>
-						<p>Total Visitors</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bx-book' ></i>
-					<span class="text">
-						<h3>2834</h3>
-						<p>Borrowed Books</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bx-book' ></i>
-					<span class="text">
-						<h3>$2543</h3>
-						<p>Overdue Books</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bxs-group' ></i>
-					<span class="text">
-						<h3>1020</h3>
-						<p>Members</p>
-					</span>
-				</li>
-			</ul>
-
-
 			<div class="table-data">
 				<div class="order">
 					<div class="head">
-						<h3>Recent Orders</h3>
+						<h3>Overdue BookList</h3>
 						<i class='bx bx-search' ></i>
 						<i class='bx bx-filter' ></i>
 					</div>
 					<table>
 						<thead>
 							<tr>
-								<th>User</th>
-								<th>Date Order</th>
+								<th>UserID</th>
+								<th>User Name</th>
+								<th>BookID</th>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Overdue</th>
 								<th>Status</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
+								<td>0001</td>
 								<td>
-									<img src="img/people.png">
 									<p>John Doe</p>
 								</td>
-								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
+								<td>#001</td>
+								<td>Title 01</td>
+								<td>Author 01</td>
+								<td>5 days</td>
+								<td class="status">Returned(Late)</td>
 							</tr>
 							<tr>
+								<td>0002</td>
 								<td>
-									<img src="img/people.png">
 									<p>John Doe</p>
 								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
+								<td>#002</td>
+								<td>Title 02</td>
+								<td>Author 02</td>
+								<td>5 days</td>
+								<td class="status">Returned(Late)</td>
 							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status process">Process</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
-							</tr>
+							
 						</tbody>
 					</table>
 				</div>
+			</div>
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Books Issued</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>UserID</th>
+								<th colspan="2">Books</th>
+								<th>Issued Date</th>
+								<th>Returned Details</th>
+								<th>Details</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>0001</td>
+								<td class="b_image">
+									<img class="bookImage" src="img/9780241736548 1.png" >
+									
+								</td>
+								<td>
+									Sherlok Holms<br>
+									<p class="writer">Chandana Mendis</p></td>
+								<td>20 Dec,2022</td>
+								<td>20 Dec,2022</td>
+								<td><span class="completed">View Details</span></td>
+							</tr>
+							<tr>
+								<td>0002</td>
+								<td class="b_image">
+									<img class="bookImage" src="img/9780241736548 1.png" >
+									
+								</td>
+								<td>
+									Sherlok Holms<br>
+									<p class="writer">Chandana Mendis</p></td>
+								<td>20 Dec,2022</td>
+								<td>20 Dec,2022</td>
+								<td><span class="completed">View Details</span></td>
+							</tr>
+							
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</main>
 		<!-- MAIN -->
 	</section>
