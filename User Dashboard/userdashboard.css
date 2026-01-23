@@ -68,7 +68,7 @@
     border-radius: 10px;
     margin-bottom: 12px;
     cursor: pointer;
-    transition: background 0.2s ease;
+    
 }
 
 .action:hover {
@@ -83,8 +83,4 @@
     text-align: center;
 }
 
-.text {
-    font-size: 18px;
-    color: #2d74ff;
-    font-weight: 500;
-}
+
